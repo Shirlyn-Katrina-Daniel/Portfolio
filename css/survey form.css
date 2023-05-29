@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Arimo', serif;
+    font-family: 'Heebo', san-serif;
+    background-image: url(../img/it4.jpg);
+}
+
+.home a{
+    background-color: black;
+    position: absolute;
+    font-size: 25px;
+    height: 45px;
+    width:  75px;
+    border-radius: 10px;
+    border: 2px solid palevioletred;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: lightskyblue;
+}
+
+img{
+    height: 8%;
+    width: 8%;
+    margin: 10px 12.4in;
+    padding: 4px;
+    border: 2px solid black;
+}
+
+.headings{
+    color: white;
+    width: 100%;
+    margin: auto;
+    background-color: #252839;
+    border: 0;
+    border-radius: 3px;
+}
+
+.head{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.subheading{
+    text-align: left;
+    font-size: 17px;
+}
+
+#container1{
+    height:200%;
+    width:  55%;
+    padding:10px;
+    margin-left: 3.8in;
+    color: white;
+}
+
+form{
+    background-color: rgba(0,0,0,0.7);
+    padding: 25px;
+}
+
+form .box1{
+    width: 98.3%;
+    height: 30px;
+    bottom: 10px;
+    position: relative;
+    border: 0;
+    border-radius: 4px;
+}
+
+form .box2{
+    width: 98.3%;
+    height: 70px;
+    bottom: 10px;
+    border: 0;
+    border-radius: 4px;
+}
+
+form .box3{
+    width: 98.3%;
+    align-items: center;
+    border: 0;
+    border-radius: 4px;
+    background-color:deepskyblue;
+}
+
+h1{
+    padding: 20px;
+}
+
+div{
+    padding: 10px;
+}
+
+.option{
+    height: 30px;
+    width: 100%;
+}
+
+p{
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+@media screen  and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }

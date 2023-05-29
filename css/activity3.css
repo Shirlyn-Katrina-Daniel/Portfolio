@@ -1,0 +1,18 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: darkseagreen;
+}
+
+.home a{
+    background-color: black;
+    font-size: 25px;
+    padding: 5px;
+    height: 45px;
+    width:  75px;
+    border-radius: 10px;
+    border: 2px solid palevioletred;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: lightskyblue;
+}

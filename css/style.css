@@ -1,0 +1,591 @@
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Inter', sans-serif;
+}
+
+#logo{
+    height: 50px;
+    width: 100px;
+}
+
+.navbar ul li a{
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover{
+    color: cadetblue;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle-button {
+    position: absolute;
+    right: 75rem;
+    top: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#hname{
+    color: black;
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    margin-left: 1.2in;
+    margin-top: 25px;
+    position: absolute;
+}
+
+#circle1{
+    height: 50%;
+    width: 30%;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    margin-left: 14px;
+    margin-top: 1.4in;
+    position: absolute;
+}
+
+#circle2{
+    height: 50%;
+    width: 30%;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 1.1in;
+    margin-top: 1.5in;
+    position: absolute;
+}
+
+#home-tname{
+    height: 50%;
+    width: 100%;
+    color: azure;
+}
+
+p{
+    margin-left: 1.6in;
+    margin-top: 2.9in;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 10px;
+    position: absolute;
+}
+
+h1{
+    margin-left: 1.5in;
+    margin-top: 3in;
+    font-size: 95px;
+    position: absolute;
+}
+
+#home-line{
+    color: black;
+    height: 5px;
+    width: 60%;
+    margin-top: 4.3in;
+    margin-left: 1.7in;
+    position: absolute;
+    background-color: palevioletred;
+}
+
+#au-hname{
+    margin-top: 5%;
+    font-size: 56px;
+    margin-left: 5in;
+    font-family: serif ;
+    font-weight: bold;
+    position: absolute;
+}
+
+.au-line{
+    margin-top: 9.5%;
+    margin-left: 0.5in;
+    height: 10px;
+    width: 90%;
+    background-color: black;
+    position: absolute;
+}
+
+.shirlyn{
+    margin-left: 1px;
+    margin-top: 8%;
+    height: 90%;
+    width: 30%;
+    position: absolute;
+}
+
+#s-image{
+    border: 10px palevioletred solid;
+    margin-left: 1.1in;
+    margin-top: 10%;
+    height: 35%;
+    width: 60%;
+    border-radius: 100%;
+}
+
+#s-name{
+    height: 8%;
+    width: 70%;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: lightskyblue;
+    margin-left: 0.9in;
+    margin-top: 10px;
+    font-family: serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#s-description{
+    margin-left: 0.4in;
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight:400;
+    text-align: center;
+    letter-spacing: normal;
+}
+
+.katrina{
+    margin-left: 33%;
+    margin-top: 8%;
+    height: 90%;
+    width: 30%;
+    position: absolute;
+}
+
+#k-image{
+    border: 10px palevioletred solid;
+    margin-left: 1.2in;
+    margin-top: 10%;
+    height: 35%;
+    width: 60%;
+    border-radius: 100%;
+}
+
+#k-name{
+    height: 8%;
+    width: 70%;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: lightskyblue;
+    margin-left: 1in;
+    margin-top: 10px;
+    font-family: serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#k-description{
+    margin-left: 0.4in;
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight:400;
+    text-align: center;
+    letter-spacing: normal;
+}
+.daniel{
+    margin-left: 67%;
+    margin-top: 8%;
+    height: 90%;
+    width: 30%;
+    position: absolute;
+}
+
+#d-image{
+    border: 10px palevioletred solid;
+    margin-left: 1.1in;
+    margin-top: 10%;
+    height: 35%;
+    width: 60%;
+    border-radius: 100%;
+}
+
+#d-name{
+    height: 8%;
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: lightskyblue;
+    margin-left: 0.4in;
+    margin-top: 10px;
+    font-family: serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#d-description{
+    margin-left: 4%;
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight:400;
+    text-align: center;
+    letter-spacing: normal;
+}
+
+#activities{
+    background-image: url(../img/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.activity1{
+    height: 30%;
+    width: 30%;
+    padding-top: 4%;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.7);
+    color:aliceblue;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 1.5in;
+    margin-left: 1.5in;
+}
+
+.activity1 a{
+    margin-top: 2%;
+    padding: 5px;
+    margin-left: 1.5in;
+    height: 60px;
+    width:  100px;
+    border-radius: 10px;
+    border:2px solid palevioletred;
+    color: lightskyblue;
+}
+
+.activity2{
+    height: 30%;
+    width: 30%;
+    padding: 4% 7%;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.7);
+    color:aliceblue;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 1.5in;
+    margin-left: 8.5in;
+}
+
+.activity2 a{
+    margin-top: 5%;
+    padding: 5px;
+    height: 60px;
+    width:  100px;
+    border-radius: 10px;
+    border: 2px solid palevioletred;
+    margin-left: 0.4in;
+    color: lightskyblue;
+}
+
+.activity3{
+    height: 30%;
+    width: 30%;
+    padding: 4% 9%;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0.7);
+    color:aliceblue;
+    position: absolute;
+    font-size: 25px;
+    margin-top: 4.5in;
+    margin-left: 5in;
+}
+
+.activity3 a{
+    margin-top: 20%;
+    padding: 5px;
+    height: 60px;
+    width:  100px;
+    border-radius: 10px;
+    border: 2px solid palevioletred;
+    margin-left: 9%;
+    color: lightskyblue;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: relative;
+    background-color:black;
+    background-position: center;
+    background-size: cover;
+}
+img{
+    width: 100%;
+    height: 100%;
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+.overlay-image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.content1{
+    width: 50%;
+    position: absolute;
+    font-size: 50px;
+    margin-left: 0.5in;
+}
+
+.content1 h1{
+    margin-top: 30px;
+    color: white;
+}
+
+.content1 p{
+    margin-left: 1in;
+    margin-top: 1.3in;
+    letter-spacing: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: azure;
+}
+
+span{
+    color: lightskyblue;
+}
+
+.cu-line{
+    height: 5px;
+    width: 90%;
+    margin-top: 2.1in;
+    margin-left: 0.6in;
+    position: absolute;
+    background-color: palevioletred;
+}
+
+.content2{
+    width: 90%;
+    position: absolute;
+    font-size: 50px;
+}
+    
+.content2 h2{
+    margin-top: 2.5in;
+    margin-left: 1.5in;
+    color: deepskyblue;
+}
+    
+.content2 p{
+    margin-left: 1.7in;
+    margin-top: 1px;
+    letter-spacing: normal;
+    font-weight: 500;
+    color: azure;
+}
+
+.content3{
+    width: 90%;
+    position: absolute;
+    font-size: 50px;
+}
+    
+.content3 h2{
+    margin-top: 4in;
+    margin-left: 1.5in;
+    color: deepskyblue;
+}
+    
+.content3 p{
+    margin-left: 1.7in;
+    margin-top: 2px;
+    letter-spacing: normal;
+    font-weight: 500;
+    color: azure;
+}
+
+.content4{
+    width: 90%;
+    position: absolute;
+    font-size: 50px;
+}
+    
+.content4 h2{
+    margin-top: 5.5in;
+    margin-left: 1.5in;
+    color: deepskyblue;
+}
+    
+.content4 p{
+    margin-left: 1.7in;
+    margin-top: 2px;
+    letter-spacing: normal;
+    font-weight: 500;
+    color: azure;
+}
+
+.home-icon{
+    height: 70px !important;
+    width: 70px !important;
+    border-radius: 210px;
+    background-color: aliceblue;
+    position: absolute;
+    padding: 19px 22px;
+    margin-top: 2.5in;
+    margin-left: 0.5in;
+}
+
+.phone-icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 210px;
+    background-color: aliceblue;
+    position: absolute;
+    padding: 19px 21px;
+    margin-top: 4in;
+    margin-left: 0.5in;
+}
+
+.email-icon{
+    height: 70px;
+    width: 70px;
+    border-radius: 210px;
+    background-color: aliceblue;
+    position: absolute;
+    padding: 19px 20px;
+    margin-top: 5.5in;
+    margin-left: 0.5in;
+}
+
+
+form{
+    background-color: aliceblue;
+    height: 50%;
+    width: 30%;
+    margin-top: 1.7in;
+    margin-left: 9in;
+    position: absolute;
+    padding: 30px;
+    margin-top: 2in;
+}
+
+form .input1{
+    height: 35px;
+    width: 90%;
+    margin-left: 3%;  
+}
+
+form .input2{
+    height: 50px;
+    width: 90%;
+    margin-left: 3%;  
+}
+
+form .input3{
+    height: 40px;
+    width: 80px;
+    margin-left: 2%; 
+    background-color: lightskyblue; 
+    border: none;
+    margin-top: 5px;
+}
+
+.form{
+    padding: 5px;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+#Home{
+    background-image: url(../img/classy.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+#logo{
+    height: 50px;
+    width: 100px;
+    position: left;
+}
+#hname{
+    width: 90%;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 7px;
+    margin-left: 1.2in;
+    margin-top: 25px;
+    position: absolute;
+}
+
+#home-tname{
+    height: 50%;
+    width: 100%;
+    color: white;
+}
+p{
+    margin-left: 1.6in;
+    margin-top: 2.9in;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    position: absolute;
+}
+
+h1{
+    margin-left: 1.5in;
+    margin-top: 3in;
+    font-size: 95px;
+    position: absolute;
+}
+#home-line{
+    position: absolute;
+    height: 7px;
+    width: 60%;
+    margin-top: 4.3in;
+    margin-left: 1.7in;
+    position: absolute;
+    background-color: palevioletred;
+}
+
+#about{
+    background-image: url(../img/bg-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+#contact{
+    background-image: url(../img/cu-bgimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
